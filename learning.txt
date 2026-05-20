@@ -1,0 +1,24 @@
+1. Why use margin: 0 and padding: 0?
+	Browsers automatically add default margins and padding to elements like <body>, <h1>, and <p> tags so that unstyled websites are still readable.*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+The * (asterisk) is a universal selector, meaning it applies these rules to every single element on your page, including the "hidden" parts like pseudo-elements (::before and ::after).
+
+
+
+2.without picture tag its working properly .then y picture tag??
+
+The <picture> tag lets you swap the actual file being used based on the screen size:
+
+With <picture>, you can tell the phone to download a smaller, low-res file (50KB) instead. This makes your website load much faster on mobile.
+
+WebP or AVIF(smaller and better quality than standard JPGs)
+
+
+
+3.flex: 1 1 50%
+problem: image and container not equally distributed
+solution: using the above command this makes the arrangement equally distributed. 
