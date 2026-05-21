@@ -13,7 +13,6 @@ body {
     align-items: center;
     min-height: 100vh;
     padding:10px;
-
 }
 
 /* Card Container (Mobile First) */
@@ -24,7 +23,6 @@ body {
     max-width: 340px; /* Width for mobile */
     display: flex;
     flex-direction: column;
-
 }
 
 .product-image img {
